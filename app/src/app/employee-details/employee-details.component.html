@@ -1,0 +1,21 @@
+<div class="employee-details" ngIf="employeeDetail">
+    <div class="profile-box">
+      <img class="profile-image" src="../../assets/employeee.png" alt="{{ employeeDetail?.name }}">
+      <div class="details">
+        <!-- <h3>{{ employeeDetail?. | uppercase}}</h3>
+        <p class="small-info">ID: {{ employeeDetail?.id }}</p>
+        <p class="small-info">Department: {{ employeeDetail?.department }}</p>
+        <p class="bio"><b><i>{{employeeDetail?.name | uppercase}}</i></b> is a hardworking employee of our company who give his services in the department of {{employeeDetail?.department}}.The unique ID of {{employeeDetail?.name }} is <b>{{employeeDetail?.id}}</b> </p> -->
+        <h3>{{employeeDetail?.name | uppercase}}</h3>
+        
+        <div class="actions">
+
+          <button mat-raised-button color="warn" >Delete</button>
+          <button mat-raised-button color="primary" >Update</button>
+        </div>
+      
+       
+      </div>
+    </div>
+  </div>
+  

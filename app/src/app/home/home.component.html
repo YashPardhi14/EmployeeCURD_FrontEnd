@@ -1,0 +1,8 @@
+<div class="container" >
+    <div class="header">
+      <button mat-raised-button color="primary" >Add New Employee</button>
+    </div >
+    <div class="card">
+   <app-employee-card *ngFor="let employee of employees" [employee]="employee"></app-employee-card>
+   
+  </div>

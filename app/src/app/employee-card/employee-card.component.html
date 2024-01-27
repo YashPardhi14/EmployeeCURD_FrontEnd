@@ -1,0 +1,10 @@
+<mat-card (click)="viewDetails(employee)">
+    <mat-card-title>
+      <img mat-card-image src="../../assets/employeee.png" alt="{{ employee?.name }}">
+      {{ employee?.name }}
+    </mat-card-title>
+    <mat-card-content>
+      <p>Department: {{ employee?.department }}</p>
+      </mat-card-content>
+     
+  </mat-card>

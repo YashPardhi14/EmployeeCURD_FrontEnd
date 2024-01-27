@@ -1,0 +1,18 @@
+.app-header {
+    display: flex;
+    
+    align-items: center;
+    padding: 5px;
+    background-color: #f5f5f5;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .company-name {
+    margin-left: 500px;
+    font-size: 20px;
+    font-weight: bold;
+  }

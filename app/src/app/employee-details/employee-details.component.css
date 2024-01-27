@@ -1,0 +1,48 @@
+.employee-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .profile-box {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .profile-image {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .details {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .small-info {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .actions button {
+    margin: 5px;
+  }
+  
+  .bio {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+  
